@@ -16,6 +16,6 @@ var calls = oncall(cat)
 calls.on('meow', function(sound) {
   console.log('meow called with', sound)
 })
-```
+
 cat.meow('MEOOOW') // prints "meow called with MEOOOW"
 ```
